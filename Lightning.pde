@@ -31,8 +31,6 @@ void draw()
 }
 
 void cloud(int x, int y){
-  fill(178, 172, 172);
-  text("("+mouseX+","+mouseY+")", mouseX, mouseY);
   ellipse(45,66,160,120);
   ellipse(240,40,130,90);
   ellipse(93,100,100,100);
